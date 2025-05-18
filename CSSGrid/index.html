@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Grid</title>
+    <style>
+        .wrapper{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /* grid-column-gap:1em ;
+            grid-row-gap: 1em; */
+
+            grid-gap:1em;
+        }
+        .wrapper > div{
+            background: #eee;
+            padding: 1em;
+        }
+        .wrapper > div:nth-child(odd){
+            background: #ddd;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus
+        fuga, ipsa vitae ut, nemo saepe nam itaque quos ipsam ab expedita,
+        blanditiis voluptas. Veritatis magnam, nihil enim omnis eius labore
+        aliquam voluptatum nulla sapiente error corporis nesciunt, fugit cum
+        expedita ducimus voluptatem quod reiciendis adipisci accusantium fugiat.
+        Reprehenderit earum quo excepturi ex eius, inventore quibusdam
+        accusantium debitis voluptate molestias minus neque vel? Asperiores
+        alias expedita, ea ex cupiditate, officiis incidunt quisquam id
+        consequuntur commodi facilis quod nobis laudantium ut cumque!
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deleniti
+        consequatur quas ducimus doloribus dolorem consequuntur temporibus rem
+        asperiores, tenetur, fuga a. Ut sunt at molestiae. Consequatur ullam vel
+        voluptate.
+      </div>
+      <div>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus
+        fuga, ipsa vitae ut, nemo saepe nam itaque quos ipsam ab expedita,
+        blanditiis voluptas. Veritatis magnam, nihil enim omnis eius labore
+        aliquam voluptatum nulla sapiente error corporis nesciunt, fugit cum
+        expedita ducimus voluptatem quod reiciendis adipisci accusantium fugiat.
+        Reprehenderit earum quo excepturi ex eius, inventore quibusdam
+        accusantium debitis voluptate molestias minus neque vel? Asperiores
+        alias expedita, ea ex cupiditate, officiis incidunt quisquam id
+        consequuntur commodi facilis quod nobis laudantium ut cumque!
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deleniti
+        consequatur quas ducimus doloribus dolorem consequuntur temporibus rem
+        asperiores, tenetur, fuga a. Ut sunt at molestiae. Consequatur ullam vel
+        voluptate.
+      </div>
+    </div>
+  </body>
+</html>
